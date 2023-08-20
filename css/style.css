@@ -47,10 +47,6 @@ a:hover{
     transform: translateX(8px);
 }
 
-/* img{
-    width: 100%;
-} */
-
 section{
     /* padding-top: 160px;
     padding-bottom: 160px; */
@@ -154,33 +150,6 @@ section{
     }
 
   }
-
-/* #hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/b4-eyebrows.jpeg');
-    min-height: 100vh;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
-    height: 80%;
-}
-.hero-content{
-    width: 60%;
-    
-}
-
-#hero h1{
-    font-size: 60px;
-    color: white;
-}
-
-#hero p{
-    margin-top: 24px;
-    margin-bottom: 24px;
-} */
-
 /* Hero Section Ends */
 
 /* BTN Section Start */
@@ -217,15 +186,7 @@ section{
     border-color: white;
 }
 
-/* .btn-outline-brand{
-    background-color: transparent;
-    color: var(--brand);
-    border-color: var(--brand);
-}
 
-.btn-outline-brand:hover{
-    background-color: var(--brand);
-} */
 
 /* BTN Section ends */
 
@@ -277,32 +238,6 @@ section{
     letter-spacing: 2px;
 }
 
-/* #about::after{
-    content: "";
-    width: 25%;
-    height: 100%; */
-    /* background-color: var(--brand); */
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-#about h6{
-    color: var(--brand);
-}
-
-#about h1{
-    margin-top: 16px;
-    margin-bottom: 24px;
-} */
-
-/* #about .signature{
-    width: unset;
-} */ 
-
-/* About Section ends */
-
 /* Service Section starts */
 #services{
     background: rgb(237, 221, 187);
@@ -348,98 +283,6 @@ section{
     margin-bottom: 16px;
 }
 
-/* Features Section Ends */
-
-/* Team Section */
-.team-member{
-    position: relative;
-}
-
-.team-member .social-links{
-    position: absolute;
-    top: 0px;
-    transition: all 0.4s ease;
-}
-
-.social-links a{
-    width: 48px;
-    height: 48px;
-    background-color: var(--bg2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.social-links a:hover{
-    background-color: var(--brand);
-    color: var(--bg2);
-}
-/* Team Section Ends*/
-
-/* Reviews Section */
-#reviews{
-    background-color: var(--bg2);
-}
-
-.review{
-    padding: 32px;
-    background-color: var(--bg1);
-    position: relative;
-}
-
-.review .icon{
-    width: 42px;
-    height: 42px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--brand);
-    color: var(--bg2);
-    border-radius: 100px;
-    position: absolute;
-    right: 32px;
-}
-
-.review img{
-    width: 60px;
-    border-radius: 100px;
-}
-/* Reviews Section Ends */
-
-/* Blogs Section */
-#blogs{
-    background-color: var(--bg1);
-}
-
-.blog-post{
-    position: relative;
-}
-
-.blog-post .date{
-    width: 100px;
-    height: 100px;
-    background-color: var(--brand);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-}
-
-.blog-post .day{
-    font-size: 32px;
-    line-height: 1;
-    font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: var(--bg1);
-}
-
-.blog-post .year{
-    color: var(--bg1);
-}
-/* Blogs Section Ends */
-
 /* Bookings Section */
 #booking{
     /* background: linear-gradient(to right,rgba(27, 31, 52, 0.8), rgba(27, 31, 52, 0.8)), url(../img/cover_2.jpg);
@@ -464,28 +307,7 @@ section{
 .form-title{
     color: #ee6c09;
 }
-/* #booking form{
-    background-color: var(--bg1);
-    padding: 32px;
-} */
 
-/* #booking form .form-control{
-    background-color: var(--bg2);
-    border-radius: 0;
-    margin-top: 16px;
-    border-color: var(--bg2);
-    border: 2px solid var(--bg2);
-    color: var(--white);
-} */
-
-/* #booking form input{
-    height: 58px;
-} */
-
-/* #booking form .form-control:focus{
-    box-shadow: none;
-    border-left-color: var(--brand);
-} */
 form{
     display: flex;
     flex-direction: column;
@@ -502,21 +324,6 @@ input, textarea{
     background-color: #dff2ff;
     color: black;
 }
-
-/* form button{
-    background-color: white;
-    border-radius: 4px;
-    color: #ee6c09;
-} */
-/* Bookings Section Ends */
-
-/* Footer *
-.whatsapp-float {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-  } */
-
   .whatsapp-float a {
   position: fixed;
   bottom: 20px;
@@ -527,36 +334,6 @@ input, textarea{
 .whatsapp-float a:hover{
     background-color: var(--bg2);
 }
-
-/* span .footer{
-    color: var(--brand);
-}
-
-footer{
-    padding-top: 160px;
-}
-
-footer .social-links{
-    display: flex;
-}
-
-.ff span{
-    color: var(--brand);
-}
-
-footer .social-links a{
-    margin-right: 5px;
-}
-
-.footer-top{
-    padding-bottom: 19px;
-}
-
-.footer-bottom{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-top: 1px solid var(--bg2);
-} */
 
 /* Footer Ends */
 
